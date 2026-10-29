@@ -62,6 +62,8 @@ typedef GtkApplication gtkapp_t;
 #define w_expand    gtk_widget_set_hexpand
 #define w_vexpand   gtk_widget_set_vexpand
 #define w_margin    gtk_widget_set_margin_top
+#define w_activate  gtk_widget_activate
+#define w_destroyed  gtk_widget_destroyed
 
 /* Orientation */
 #define OR_V GTK_ORIENTATION_VERTICAL
